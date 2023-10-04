@@ -1,0 +1,12 @@
+---
+title: Main menu
+items:
+- title: Actualités
+  target: "/en/actualites/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/en/agenda/"
+  kind: page
+  children: []
+
