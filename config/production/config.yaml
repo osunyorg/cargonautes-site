@@ -4,7 +4,7 @@ baseURL: https://www.bigbikesconsulting.com
 
 ## LANGUAGE
 defaultContentLanguage: fr
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 
 ## CACHE
 deployment:
@@ -20,4 +20,4 @@ deployment:
 deployment:
   targets:
     - name: "production"
-      URL: "s3://cargonautes-site?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
+      URL: "s3://www.bigbikesconsulting.com?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
